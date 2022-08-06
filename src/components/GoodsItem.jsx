@@ -13,7 +13,7 @@ function GoodsItem(props) {
             </div>
             <div className="card-action">
                 <button className="btn">To BUY</button>
-                <span className="right">{price}</span>
+                <span className="right" style={{fontSize:'1.8rem'}}>{price} UAH</span>
             </div>
          </div>
     );
