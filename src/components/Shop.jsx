@@ -20,7 +20,7 @@ function Shop() {
 
     return <main className="container content">
         {
-     loading ? <Preloader/> : goods
+     loading ? <Preloader/> : <GoodsList goods={goods}/>
     }
     </main>
 }
